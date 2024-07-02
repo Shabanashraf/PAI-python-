@@ -1,0 +1,12 @@
+def second_largest(arr):
+    first, second = float('-inf'), float('-inf')
+    for number in arr:
+        if number > first:
+            first, second = number, first
+        elif first > number > second:
+            second = number
+    return second
+
+# Example usage:
+arr = [10, 20, 4, 45, 99]
+print(second_largest(arr))
