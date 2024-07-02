@@ -1,0 +1,6 @@
+def sum_list(arr):
+    return sum(arr)
+
+# Example usage:
+arr = [1, 2, 3, 4, 5]
+print(sum_list(arr))
