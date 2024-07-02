@@ -1,0 +1,7 @@
+def is_substring(sub, main):
+    return sub in main
+
+# Example usage:
+main_string = "Hello World"
+sub_string = "World"
+print(is_substring(sub_string, main_string))
