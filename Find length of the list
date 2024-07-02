@@ -1,0 +1,6 @@
+def list_length(lst):
+    return len(lst)
+
+# Example usage:
+lst = [1, 2, 3, 4, 5]
+print(list_length(lst))
